@@ -1,6 +1,9 @@
 # OpenMove
 Open Source Move Code
 
+## !!NOTE
+We aim to provide production ready open source libraries for move ecosystem, however this does not indicate the code is bug-free. So please be assured that before you use it. Contribution with new issues or PRs is super welcome. 
+
 ## Branch
 
 | Branch   | Compatible With Chain |
@@ -10,11 +13,24 @@ Open Source Move Code
 
 ## Modules
 
+| module   | status               |  abort_code starts at  |
+| -------- | -------------------- | ---------------------  |
+| std      | DONE                 | 10001                  |
+| consensus| DONE                 | NULL                   |
+| rlp      | DONE                 | 30001                  |
+| mpt      | DONE                 | 21001                  |
+| smt      | TO_BE_TESTED         | 20001                  |
+| crypto   | DONE                 | 40001                  |
+| abi      | TO_DO                | NULL                   |
+| ssz      | TO_DO                | NULL                   |
+| merkle   | DONE                 | 22001                  |
+
+
 ### std
 
 Extensions and utilities for standard libraries.
 
-- Vector utilities like slicing and comparison
+- Vector utilities like slicing and comparison and deduplication
 
 - Bytes utilities
 
@@ -28,7 +44,9 @@ Common merkle tree structures for proof verification.
 
 - Merkle Patricia Trie for proof verifications in Ethereum
 
-## encoding
+- Simple Merkle Trie proof verification
+
+### encoding
 
 Common encoding/serialization lib.
 
@@ -39,7 +57,7 @@ Common encoding/serialization lib.
 - SSZ encoding used in Ethereum 2.0
 
 
-## Consensus
+### consensus
 
 Common consensus utilities
 
@@ -47,13 +65,18 @@ Common consensus utilities
 
 - Max Faulty as n / 3
 
+- Least Total with Faulty as 3f + 1
 
-## Abort Code
+- Verify Majority: m > n * 2 / 3
 
-| module   | abort_code starts at |
-| -------- | -------------------- |
-| std      | 10001                |
-| tree     | 20001                |
-| encoding | 30001                |
-| crypto   | 40001                |
+
+## Donation
+
+Thanks bro for buying me a coffee!
+
+| Chain                                        | Wallet Address                                                        |
+| -------------------------------------------- | --------------------------------------------------------------------- |
+| Ethereum(including Layer2, BSC, Polygon, etc)| |
+| Aptos                                        | 0x0bdb628ee8e9e1b9e9c1545920612eca7d2b6cd96cefdcfa9e53a2d22ac84ca5    |
+| Starcoin                                     | 0xc874a704893C44D9C3e5d772a7a9ad0d                                    |
 
