@@ -76,7 +76,7 @@ Thanks bro for buying me a coffee!
 
 | Chain                                        | Wallet Address                                                        |
 | -------------------------------------------- | --------------------------------------------------------------------- |
-| Ethereum(including Layer2, BSC, Polygon, etc)| |
+| Ethereum(including Layer2, BSC, Polygon, etc)| 0xF7fC894175d96Fe42e31DD03D3CF747B988703fC                            |
 | Aptos                                        | 0x0bdb628ee8e9e1b9e9c1545920612eca7d2b6cd96cefdcfa9e53a2d22ac84ca5    |
 | Starcoin                                     | 0xc874a704893C44D9C3e5d772a7a9ad0d                                    |
 
